@@ -14,7 +14,7 @@
 
 ```bash
 ddev add-on get ddev/ddev-redis
-ddev add-on get https://github.com/stasadev/ddev-redis-insight/tarball/refs/pull/REPLACE_ME_WITH_THIS_PR_NUMBER/head
+ddev add-on get https://github.com/ddev/ddev-redis-insight/tarball/refs/pull/REPLACE_ME_WITH_THIS_PR_NUMBER/head
 ddev restart
 ```
 
