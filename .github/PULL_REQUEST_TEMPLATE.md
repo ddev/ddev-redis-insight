@@ -1,3 +1,7 @@
+## Short Summary (TL;DR)
+
+<!-- Required. One or two sentences a reviewer can read at a glance: what this changes, and why. Write it last, but put it here first. If it needs a paragraph, the detail belongs in the sections below. -->
+
 ## The Issue
 
 - Fixes #REPLACE_ME_WITH_RELATED_ISSUE_NUMBER
@@ -14,7 +18,7 @@
 
 ```bash
 ddev add-on get ddev/ddev-redis
-ddev add-on get https://github.com/ddev/ddev-redis-insight/tarball/refs/pull/REPLACE_ME_WITH_THIS_PR_NUMBER/head
+ddev add-on get ddev/ddev-redis-insight --pr REPLACE_ME_WITH_THIS_PR_NUMBER
 ddev restart
 ```
 
